@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cúspides | Alpinismo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,300..900&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-follower" aria-hidden="true"></div>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Cúspides inicio">
+        <img src="assets/images/LOGO.png" alt="Cúspides" />
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" data-nav>
+        <a class="active" href="#home">Home</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#preguntas">Preguntas</a>
+        <a class="search-link" href="#cursos" aria-label="Buscar cursos">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg>
+        </a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <img class="hero-bg" src="assets/images/HERO4.jpg" alt="" aria-hidden="true" />
+        <img class="hero-foreground" src="assets/images/HERO42.png" alt="" aria-hidden="true" data-hero-foreground />
+        <div class="hero-content">
+          <div class="hero-title-layer" data-hero-title>
+            <p>Explorá con</p>
+            <h1>CÚSPIDES</h1>
+          </div>
+          <a class="outline-btn" href="#cursos">Ver cursos</a>
+        </div>
+      </section>
+
+      <section class="benefits section-pad" id="beneficios">
+        <div class="section-heading compact" data-animate>
+          <h2>Beneficios del alpinismo</h2>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit" data-animate>
+            <img src="assets/images/icono1.png" alt="" aria-hidden="true" />
+            <h3>Resistencia<br />física</h3>
+          </article>
+          <article class="benefit" data-animate>
+            <img src="assets/images/icono2.png" alt="" aria-hidden="true" />
+            <h3>Disciplina y<br />perseverancia</h3>
+          </article>
+          <article class="benefit" data-animate>
+            <img src="assets/images/icono3.png" alt="" aria-hidden="true" />
+            <h3>Mejor<br />concentración</h3>
+          </article>
+          <article class="benefit" data-animate>
+            <img src="assets/images/icono4.png" alt="" aria-hidden="true" />
+            <h3>Conecta con<br />la naturaleza</h3>
+          </article>
+          <article class="benefit" data-animate>
+            <img src="assets/images/icono5.png" alt="" aria-hidden="true" />
+            <h3>Superación<br />personal</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="nosotros">
+        <div class="about-copy animate-left" data-animate>
+          <p class="eyebrow">Sobre nosotros</p>
+          <h2><span>La montaña no perdona</span><span>la improvisación</span></h2>
+          <p>Las cumbres no distinguen entre talento y experiencia, solo responden a la preparación.</p>
+          <p>Cúspides nació bajo una convicción simple: los desafíos extraordinarios exigen una preparación extraordinaria. Durante meses entrenamos cuerpo y mente para desarrollar resistencia, disciplina, control emocional y capacidad de adaptación.</p>
+          <a class="outline-btn" href="#equipo">Leer más</a>
+        </div>
+        <div class="about-media animate-right" data-animate>
+          <div class="photo-stack photo-gallery back" data-about-gallery>
+            <img class="is-active" src="assets/images/nosotros1.jpg" alt="Cordada avanzando sobre nieve" />
+            <img src="assets/images/nosotros2.jpg" alt="Cordada avanzando sobre nieve" />
+            <img src="assets/images/nosotros3.jpg" alt="Cordada avanzando sobre nieve" />
+          </div>
+          <div class="photo-stack photo-gallery front is-mirrored" data-about-gallery>
+            <img class="is-active" src="assets/images/nosotros4.jpg" alt="Alpinistas subiendo una pared rocosa nevada" />
+            <img src="assets/images/nosotros5.jpg" alt="Alpinistas subiendo una pared rocosa nevada" />
+            <img src="assets/images/nosotros6.jpg" alt="Alpinistas subiendo una pared rocosa nevada" />
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="desafio">
+        <img src="assets/images/atencion.jpg" alt="" aria-hidden="true" data-cta-image />
+        <div class="cta-content" data-animate>
+          <h2>Demostrá de qué estás hecho</h2>
+          <p>La montaña te está esperando, ¿vos estás listo?</p>
+          <a class="outline-btn dark" href="#cursos">Ver cursos</a>
+        </div>
+      </section>
+
+      <section class="team section-pad" id="equipo">
+        <div class="team-copy animate-left" data-animate>
+          <h2>Nuestro equipo</h2>
+          <p>En Cúspides reunimos entrenadores, guías de montaña y especialistas que trabajan de manera coordinada para llevar a cada integrante más allá de sus límites habituales.</p>
+          <div class="stats">
+            <div><strong data-count="10">0</strong><span>Miembros<br />del equipo</span></div>
+            <div><strong data-count="142">0</strong><span>Ingresantes<br />por año</span></div>
+            <div><strong data-count="50">0</strong><span>Años en<br />el rubro</span></div>
+          </div>
+        </div>
+        <div class="coach-list animate-right" data-animate>
+          <div class="coach-viewport">
+            <div class="coach-track" data-coach-track>
+              <div class="coach-slide">
+                <article class="coach-card">
+                  <div class="coach-card-inner">
+                    <div class="coach-card-face coach-card-front">
+                      <img src="assets/images/bianca.jpg" alt="Bianca Ruiz escalando hielo" />
+                      <div class="coach-card-copy">
+                        <h3>Bianca Ruiz</h3>
+                        <p>Directora de Preparación Física</p>
+                      </div>
+                    </div>
+                    <div class="coach-card-face coach-card-back">
+                      <div class="profile-card">
+                        <div class="profile-top">
+                          <span class="profile-avatar">BR</span>
+                        </div>
+                        <div class="profile-body">
+                          <span class="profile-handle">@bianca.ri</span>
+                          <h3><span>Bianca</span><span>Ruiz Ibarra</span></h3>
+                          <p>Directora de preparación física. Diseña programas de alto rendimiento para enfrentar la montaña con fuerza, resistencia y control.</p>
+                        </div>
+                        <div class="profile-stats">
+                          <div><strong>128</strong><span>proyectos</span></div>
+                          <div><strong>12K</strong><span>seguidores</span></div>
+                          <div><strong>4.9</strong><span>rating</span></div>
+                        </div>
+                        <button class="profile-action" type="button" aria-pressed="false">seguir</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="coach-card">
+                  <div class="coach-card-inner">
+                    <div class="coach-card-face coach-card-front">
+                      <img src="assets/images/agustin.jpg" alt="Agustín Scattolin escalando en la montaña" />
+                      <div class="coach-card-copy">
+                        <h3>Agustín Scattolin</h3>
+                        <p>Guía de Alta Montaña</p>
+                      </div>
+                    </div>
+                    <div class="coach-card-face coach-card-back">
+                      <div class="profile-card">
+                        <div class="profile-top">
+                          <span class="profile-avatar">AS</span>
+                        </div>
+                        <div class="profile-body">
+                          <span class="profile-handle">@agustin.sct</span>
+                          <h3><span>Agustín</span><span>Scattolin</span></h3>
+                          <p>Guía de montaña. Lidera entrenamientos en terreno y acompaña procesos de adaptación a entornos de alta exigencia.</p>
+                        </div>
+                        <div class="profile-stats">
+                          <div><strong>96</strong><span>proyectos</span></div>
+                          <div><strong>9K</strong><span>seguidores</span></div>
+                          <div><strong>4.8</strong><span>rating</span></div>
+                        </div>
+                        <button class="profile-action" type="button" aria-pressed="false">seguir</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="coach-slide">
+                <article class="coach-card">
+                  <div class="coach-card-inner">
+                    <div class="coach-card-face coach-card-front">
+                      <img src="assets/images/card2.jpg" alt="Julia Mansilla en una pared nevada" />
+                      <div class="coach-card-copy">
+                        <h3>Julia Mansilla</h3>
+                        <p>Entrenadora de Resistencia</p>
+                      </div>
+                    </div>
+                    <div class="coach-card-face coach-card-back">
+                      <div class="profile-card">
+                        <div class="profile-top">
+                          <span class="profile-avatar">JM</span>
+                        </div>
+                        <div class="profile-body">
+                          <span class="profile-handle">@julia.mansilla</span>
+                          <h3><span>Julia</span><span>Mansilla</span></h3>
+                          <p>Entrenadora de resistencia. Especialista en capacidad aeróbica, fuerza funcional y rendimiento sostenido en ascensos prolongados.</p>
+                        </div>
+                        <div class="profile-stats">
+                          <div><strong>114</strong><span>proyectos</span></div>
+                          <div><strong>15K</strong><span>seguidores</span></div>
+                          <div><strong>4.9</strong><span>rating</span></div>
+                        </div>
+                        <button class="profile-action" type="button" aria-pressed="false">seguir</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="coach-card">
+                  <div class="coach-card-inner">
+                    <div class="coach-card-face coach-card-front">
+                      <img src="assets/images/card3.jpg" alt="Tomás Rodríguez avanzando sobre nieve" />
+                      <div class="coach-card-copy">
+                        <h3>Tomás Rodríguez</h3>
+                        <p>Instructor de Técnica Alpina</p>
+                      </div>
+                    </div>
+                    <div class="coach-card-face coach-card-back">
+                      <div class="profile-card">
+                        <div class="profile-top">
+                          <span class="profile-avatar">TR</span>
+                        </div>
+                        <div class="profile-body">
+                          <span class="profile-handle">@tomas.rodriguez</span>
+                          <h3><span>Tomás</span><span>Rodríguez</span></h3>
+                          <p>Instructor de técnica alpina. Forma en desplazamiento, uso de equipamiento y seguridad técnica previa a la montaña.</p>
+                        </div>
+                        <div class="profile-stats">
+                          <div><strong>87</strong><span>proyectos</span></div>
+                          <div><strong>8K</strong><span>seguidores</span></div>
+                          <div><strong>4.7</strong><span>rating</span></div>
+                        </div>
+                        <button class="profile-action" type="button" aria-pressed="false">seguir</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="coach-slide">
+                <article class="coach-card">
+                  <div class="coach-card-inner">
+                    <div class="coach-card-face coach-card-front">
+                      <img src="assets/images/card4.jpg" alt="Belén Nieva en entorno de montaña" />
+                      <div class="coach-card-copy">
+                        <h3>Belén Nieva</h3>
+                        <p>Preparadora Mental</p>
+                      </div>
+                    </div>
+                    <div class="coach-card-face coach-card-back">
+                      <div class="profile-card">
+                        <div class="profile-top">
+                          <span class="profile-avatar">BN</span>
+                        </div>
+                        <div class="profile-body">
+                          <span class="profile-handle">@belen.nieva</span>
+                          <h3><span>Belén</span><span>Nieva</span></h3>
+                          <p>Preparadora mental. Trabaja disciplina, concentración y toma de decisiones bajo presión en contextos extremos.</p>
+                        </div>
+                        <div class="profile-stats">
+                          <div><strong>102</strong><span>proyectos</span></div>
+                          <div><strong>11K</strong><span>seguidores</span></div>
+                          <div><strong>4.9</strong><span>rating</span></div>
+                        </div>
+                        <button class="profile-action" type="button" aria-pressed="false">seguir</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+                <article class="coach-card">
+                  <div class="coach-card-inner">
+                    <div class="coach-card-face coach-card-front">
+                      <img src="assets/images/card5.jpg" alt="Tomás Salazar en ascenso nevado" />
+                      <div class="coach-card-copy">
+                        <h3>Tomás Salazar</h3>
+                        <p>Guía de Expediciones</p>
+                      </div>
+                    </div>
+                    <div class="coach-card-face coach-card-back">
+                      <div class="profile-card">
+                        <div class="profile-top">
+                          <span class="profile-avatar">TS</span>
+                        </div>
+                        <div class="profile-body">
+                          <span class="profile-handle">@tomas.salazar</span>
+                          <h3><span>Tomás</span><span>Salazar</span></h3>
+                          <p>Guía de expediciones. Coordina rutas, planificación y estrategias para afrontar desafíos reales en alta montaña.</p>
+                        </div>
+                        <div class="profile-stats">
+                          <div><strong>139</strong><span>proyectos</span></div>
+                          <div><strong>18K</strong><span>seguidores</span></div>
+                          <div><strong>5.0</strong><span>rating</span></div>
+                        </div>
+                        <button class="profile-action" type="button" aria-pressed="false">seguir</button>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="dots" aria-label="Instructores">
+            <button class="on" type="button" aria-label="Ver instructores 1" data-coach-dot></button>
+            <button type="button" aria-label="Ver instructores 2" data-coach-dot></button>
+            <button type="button" aria-label="Ver instructores 3" data-coach-dot></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses course-route" id="cursos" aria-labelledby="courses-title">
+        <img class="course-route-bg" src="assets/images/byn.png" alt="" aria-hidden="true" />
+        <h2 id="courses-title" data-animate>Nuestros cursos</h2>
+        <img class="course-route-front" src="assets/images/bypng.png" alt="" aria-hidden="true" />
+
+        <div class="course-point phase-03" data-animate>
+          <button class="course-marker" type="button" aria-expanded="false" aria-controls="course-cuspide" data-course-toggle>
+            <span>Fase 03</span>
+          </button>
+          <article class="course-info" id="course-cuspide">
+            <h3>Programa Cúspide</h3>
+            <strong>Duración: 10 semanas</strong>
+            <p>En la etapa final, incorpora conocimientos técnicos y estrategias que te permitirán desenvolverte con seguridad en la montaña.</p>
+            <b>$390.000</b>
+          </article>
+        </div>
+
+        <div class="course-point phase-02" data-animate>
+          <button class="course-marker" type="button" aria-expanded="false" aria-controls="course-ascenso" data-course-toggle>
+            <span>Fase 02</span>
+          </button>
+          <article class="course-info" id="course-ascenso">
+            <h3>Programa Ascenso</h3>
+            <strong>Duración: 8 semanas</strong>
+            <p>Desarrolla la condición física, la resistencia y los hábitos que sostendrás en cada etapa del proceso.</p>
+            <b>$260.000</b>
+          </article>
+        </div>
+
+        <div class="course-point phase-01" data-animate>
+          <button class="course-marker" type="button" aria-expanded="false" aria-controls="course-base" data-course-toggle>
+            <span>Fase 01</span>
+          </button>
+          <article class="course-info" id="course-base">
+            <h3>Programa BASE</h3>
+            <strong>Duración: 6 semanas</strong>
+            <p>Aprende a gestionar la incertidumbre, afrontar situaciones exigentes y sostener el rendimiento incluso cuando las condiciones no son favorables.</p>
+            <b>$180.000</b>
+          </article>
+        </div>
+      </section>
+
+      <section class="testimonials section-pad" id="testimonios">
+        <div class="section-heading" data-animate>
+          <h2>Testimonios</h2>
+          <p>Conocé las experiencias de quienes llevaron su preparación al siguiente nivel.</p>
+        </div>
+        <div class="testimonial-carousel" data-animate>
+          <div class="testimonial-viewport">
+            <div class="testimonial-track" data-testimonial-track>
+              <div class="testimonial-slide">
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Caterina Loyato</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>Llegué buscando mejorar mi resistencia y terminé descubriendo una fortaleza física y mental que desconocía por completo.</p>
+                </article>
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Lucas Muñoz</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>La preparación fue exigente, pero cuando enfrenté la montaña entendí por qué cada entrenamiento era necesario.</p>
+                </article>
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Jazmín Vizcarra</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>Aprendí a controlar el cansancio, mantener la concentración y confiar en mi preparación en los momentos más difíciles.</p>
+                </article>
+              </div>
+              <div class="testimonial-slide">
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Belén Gonzalez</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>El programa me ayudó a ordenar mi entrenamiento y llegar a cada salida con mucha más seguridad.</p>
+                </article>
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Martina Ruiz</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>Aprendí a dosificar energía, leer mejor el terreno y sostener la calma cuando el ascenso se pone difícil.</p>
+                </article>
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Joel Ramirez</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>La preparación fue intensa, pero cada clase tuvo sentido cuando empecé a notar cambios reales en mi rendimiento.</p>
+                </article>
+              </div>
+              <div class="testimonial-slide">
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Luciano Ganino</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>El acompañamiento del equipo hizo que pudiera superar límites que antes me parecían imposibles.</p>
+                </article>
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Dana Cabral</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>Gané confianza, técnica y una rutina mucho más constante para entrenar con objetivos claros.</p>
+                </article>
+                <article class="testimonial">
+                  <div class="person"><span></span><div><h3>Florencia Fratalocchi</h3><p>★★★★★</p></div><b>“</b></div>
+                  <p>Me llevo una forma distinta de prepararme: más consciente, más disciplinada y mucho más conectada con la montaña.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="dots centered" aria-label="Testimonios">
+            <button class="on" type="button" aria-label="Ver testimonios 1" data-testimonial-dot></button>
+            <button type="button" aria-label="Ver testimonios 2" data-testimonial-dot></button>
+            <button type="button" aria-label="Ver testimonios 3" data-testimonial-dot></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-info section-pad" id="contacto">
+        <div class="contact-head" data-animate>
+          <h2>Contacto</h2>
+          <p>Dejanos tus datos y el equipo de Cúspides te orienta para elegir programa, resolver dudas de inscripción o coordinar una entrevista inicial.</p>
+        </div>
+
+        <div class="contact-grid">
+          <form class="contact-form" data-animate data-contact-form>
+            <h3>Enviar mensaje</h3>
+            <div class="field-grid">
+              <label>
+                <span>Nombre</span>
+                <input type="text" name="name" autocomplete="name" />
+              </label>
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" />
+              </label>
+              <label>
+                <span>Programa de interés</span>
+                <select name="program">
+                  <option>Programa Base</option>
+                  <option>Programa Ascenso</option>
+                  <option>Programa Cúspide</option>
+                </select>
+              </label>
+              <label>
+                <span>Teléfono</span>
+                <input type="tel" name="phone" autocomplete="tel" />
+              </label>
+            </div>
+            <label class="message-field">
+              <span>Mensaje</span>
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <button class="outline-btn" type="submit">Enviar</button>
+          </form>
+
+          <div class="contact-panel" data-animate>
+            <article>
+              <small>Llamanos</small>
+              <strong>+11 3000 1234</strong>
+              <p>Lunes a viernes de 9 a 18 hs.</p>
+            </article>
+            <article>
+              <small>Escribinos</small>
+              <strong>cuspide@gmail.com</strong>
+              <p>Consultas sobre cursos, disponibilidad e inscripciones.</p>
+            </article>
+            <article>
+              <small>Visitanos</small>
+              <strong>FADU UBA</strong>
+              <p>Ciudad Universitaria, Pabellón 3, Buenos Aires.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="map-section" id="ubicacion" data-animate>
+          <div>
+            <h3>Ubicación</h3>
+          </div>
+          <a href="https://www.google.com/maps/search/?api=1&query=FADU%20UBA%20Ciudad%20Universitaria%20Buenos%20Aires" target="_blank" rel="noreferrer">Abrir en Maps</a>
+          <iframe title="Mapa de FADU UBA" src="https://www.google.com/maps?q=FADU%20UBA%20Ciudad%20Universitaria%20Buenos%20Aires&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="faq-section" id="preguntas" data-animate>
+          <div class="faq-title">
+            <h2>Preguntas frecuentes</h2>
+          </div>
+          <div class="faq-list">
+            <details open>
+              <summary>¿Qué programa me conviene elegir?</summary>
+              <p>Base es ideal para empezar, Ascenso para mejorar rendimiento y Cúspide para quienes ya entrenan y buscan autonomía técnica.</p>
+            </details>
+            <details>
+              <summary>Necesito experiencia previa?</summary>
+              <p>No para Programa Base. Para Ascenso y Cúspide recomendamos una entrevista inicial para revisar tu estado físico y experiencia.</p>
+            </details>
+            <details>
+              <summary>¿Dónde se realizan las clases?</summary>
+              <p>La coordinación y encuentros principales son en FADU UBA, con salidas y prácticas según el programa elegido.</p>
+            </details>
+            <details>
+              <summary>¿Cómo inicio la inscripción?</summary>
+              <p>Completás el formulario, nos contás tu objetivo y te respondemos dentro de las 24 hs hábiles con el siguiente paso.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <h2>Cúspides</h2>
+          <p>Preparación física, técnica y mental para afrontar desafíos reales en la montaña.</p>
+          <p>FADU UBA<br />Bellucia 2, 2026<br />Teléfono: +11 3000 1234<br />Email: cuspide@gmail.com</p>
+          <div class="socials">
+            <a href="#" aria-label="YouTube de Cúspides">
+              <img src="assets/images/redes1.png" alt="" />
+            </a>
+            <a href="#" aria-label="Instagram de Cúspides">
+              <img src="assets/images/redes2.png" alt="" />
+            </a>
+            <a href="#" aria-label="Facebook de Cúspides">
+              <img src="assets/images/redes3.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <nav class="footer-links" aria-label="Enlaces del footer">
+          <div>
+            <h3>Explorar</h3>
+            <a href="#home">Home</a>
+            <a href="#nosotros">Sobre nosotros</a>
+            <a href="#equipo">Nuestro equipo</a>
+            <a href="#testimonios">Testimonios</a>
+          </div>
+          <div>
+            <h3>Programas</h3>
+            <a href="#cursos">Programa Base</a>
+            <a href="#cursos">Programa Ascenso</a>
+            <a href="#cursos">Programa Cúspide</a>
+            <a href="#preguntas">Preguntas frecuentes</a>
+          </div>
+          <div>
+            <h3>Contacto</h3>
+            <a href="tel:+1130001234">+11 3000 1234</a>
+            <a href="mailto:cuspide@gmail.com">cuspide@gmail.com</a>
+            <a href="#contacto">Enviar mensaje</a>
+            <a href="#ubicacion">Ver ubicación</a>
+          </div>
+          <div>
+            <h3>Ubicación</h3>
+            <a href="#ubicacion">FADU UBA</a>
+            <a href="#ubicacion">Ciudad Universitaria</a>
+            <a href="#ubicacion">Pabellón 3</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=FADU%20UBA%20Ciudad%20Universitaria%20Buenos%20Aires" target="_blank" rel="noreferrer">Abrir en Maps</a>
+          </div>
+        </nav>
+      </div>
+      <p class="copyright">Copyright Cúspides todos los derechos reservados<br />Diseñado por Bianca Ruiz Ibarra</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
